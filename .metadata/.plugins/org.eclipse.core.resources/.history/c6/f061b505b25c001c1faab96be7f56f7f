@@ -1,0 +1,18 @@
+package superclass;
+
+public class Main01 {
+
+	public static void main(String[] args) {
+		//비행기를 생성해서 초기속도는 300으로 세팅하고
+		// 가속2번으로 900으로 속도를 만들고
+		// 0까지 내리기
+		
+		Airplan a1 = new Airplan();
+		
+		
+		
+		
+
+	}
+
+}

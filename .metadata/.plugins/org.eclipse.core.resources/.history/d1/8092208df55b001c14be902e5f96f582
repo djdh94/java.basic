@@ -1,0 +1,16 @@
+package intheritance;
+
+public class Main {
+
+	public static void main(String[] args) {
+	
+		Basket w = new Basket("싸움독학","김대현");
+		
+		w.getInfo();
+		w.uploadBesket();
+		w.uploadBesket();
+		w.uploadBesket();
+		w.uploadBesket();
+		w.uploadBesket();
+	}
+}

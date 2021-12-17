@@ -1,0 +1,14 @@
+package structure;
+
+public class Car2 {
+
+	public String model;
+	public int price;
+	public String owner;
+	
+	public void getinfo() {
+		System.out.println(owner+"의 차정보입니다");
+		System.out.println("모델명:"+model+",가격: "+price);
+		System.out.println();
+	}
+}

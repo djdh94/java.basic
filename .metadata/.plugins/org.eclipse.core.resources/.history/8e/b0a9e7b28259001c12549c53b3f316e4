@@ -1,0 +1,12 @@
+package constructor;
+
+public class Main02P204 {
+
+	public static void main(String[] args) {
+		
+		BasketballPlayer b = new BasketballPlayer("김대현");
+		
+		b.getInfo();
+	}
+
+}

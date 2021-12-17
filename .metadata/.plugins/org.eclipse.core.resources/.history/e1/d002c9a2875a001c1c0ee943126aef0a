@@ -1,0 +1,24 @@
+
+
+public class test {
+	
+	public static int mul(int a,int b,int c) {
+		return (a*b*c);
+	}
+
+	public static void info() {
+		System.out.println("1");
+		System.out.println("2");
+		System.out.println("3");
+	}
+	public static void main(String[] args) {
+		
+		int result=mul(10,10,10);
+		System.out.println(result);
+		
+		for(int i=0; i<3; i++)
+		{
+			info();
+		}
+	}	
+}

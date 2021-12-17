@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class test {
+
+	public static void main(String[] args) {
+		
+		Scanner scan = new Scanner(System.in);
+		System.out.println("정수입력");
+		int dan = scan.nextInt();
+		
+		if(1<dan && dan<10) {
+		for(int i=1; i<10; i++)
+		{
+			System.out.println(dan+"*"+i+"="+dan*i);
+		}
+		}else{
+			System.out.println("2~9단사이만 입력해주세요");
+	}
+}

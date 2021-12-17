@@ -1,0 +1,18 @@
+package game.inheritance;
+
+public class Warrior extends Commoner{
+
+
+	private int pDam;
+	
+	public Warrior(String id) {
+		
+		this.id="김승곤";
+		
+	}
+	
+	public void getInfo() {
+		System.out.println("캐릭터 생성완료");
+		System.out.println("아이디:"+id+",레벨:"+lv+",마나:"+mp+",체력:"+hp+",물리데미지:"+pDam);
+	}
+}

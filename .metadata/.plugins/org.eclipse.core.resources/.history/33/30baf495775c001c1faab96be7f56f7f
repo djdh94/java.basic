@@ -1,0 +1,10 @@
+package overriding;
+
+public class Animal2 extends Animal {
+	
+	String name;
+	
+	
+	
+
+}

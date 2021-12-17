@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+public class test {
+
+	public static void main(String[] args) {
+		
+		Scanner scan = new Scanner(System.in);
+		System.out.println("정수입력");
+		int num=scan.nextInt();
+		
+		int total=0;
+		int count=1;
+		while(true)
+		{
+			total+=count;
+			
+			if(count<=num) {
+				System.out.println("1부터"+count+"까지 더했습니더");
+			if(total%2==0)
+			{
+			System.out.println("총합은"+total+"입니다");	
+			}count++;
+			}
+		}
+	
+	}
+}
+		

@@ -1,0 +1,19 @@
+package polymorphism;
+
+public class Student2 extends Person{
+	
+	public String zxc;
+	
+public Student2(String name, int age, String zxc) {
+		
+		super(name,age);
+		this.zxc=zxc;
+	}
+
+	public void showPerosn() {
+	super.showPerson();
+	System.out.println("학생: "+zxc);
+}
+
+
+}

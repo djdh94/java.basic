@@ -1,0 +1,12 @@
+package game.interaction;
+
+public class Main03 {
+
+	public static void main(String[] args) {
+		
+		Archer a1 = new Archer();
+		
+			
+		
+	}
+}

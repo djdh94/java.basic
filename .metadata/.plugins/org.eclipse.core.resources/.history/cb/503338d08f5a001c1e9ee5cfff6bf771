@@ -1,0 +1,20 @@
+package structure;
+
+public class test {
+
+	public static void getinfo(test2 a) {
+		
+		System.out.println(a.name);
+	}
+	public static void main(String[] args) {
+		
+		test2 t = new test2();
+		t.name="김대현";
+		t.age=28;
+		t.number=1566;
+		
+		getinfo(t);
+
+	}
+
+}

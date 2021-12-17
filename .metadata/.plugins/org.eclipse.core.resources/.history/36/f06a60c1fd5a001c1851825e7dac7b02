@@ -1,0 +1,17 @@
+package structure;
+
+public class test {
+
+	public static void main(String[] args) {
+
+		test2 t = new test2(150,100);
+		
+	
+		test2 t2= new test2(200,150);
+
+		
+		t.dunkShoot();
+		t2.dunkShoot();
+	}
+
+}

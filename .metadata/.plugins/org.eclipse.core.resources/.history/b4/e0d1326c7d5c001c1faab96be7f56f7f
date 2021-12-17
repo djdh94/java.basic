@@ -1,0 +1,17 @@
+package overriding;
+
+public class Main01P265 {
+
+	public static void main(String[] args) {
+		
+		//말과 돼지를 생성해보기
+		
+		Horse h = new Horse();
+		h.howl();
+		
+		Pig p = new Pig();
+		p.howl();
+
+	}
+
+}

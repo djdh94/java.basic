@@ -1,0 +1,20 @@
+package polymorphism;
+
+public class Main02 {
+
+	public static void main(String[] args) {
+		
+	
+	
+		
+			
+		
+		Person p1  = new Gammer("김대현",28,"asd");
+		
+		p1.showPerson();
+		
+		
+
+	}
+
+}

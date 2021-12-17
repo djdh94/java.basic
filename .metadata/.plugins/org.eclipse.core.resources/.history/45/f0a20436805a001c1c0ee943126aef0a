@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+public class test {
+
+	public static void main(String[] args) {
+		
+		int[] eng = {62,42,68,31,80,77,45};
+		
+		int total=0;
+		int count=0;
+		
+		for(int score:eng)
+		{
+			if(score<60)
+			{
+				continue;
+			}
+			else 
+			{
+				count++;
+				total+=score;
+			}
+		}System.out.println(total/count);
+		
+
+	}	
+}

@@ -1,0 +1,18 @@
+package structure;
+
+public class test {
+
+	
+	Car c= new car();
+	c.gas=100;
+	c.speed=0;
+	c.owner="김대현";
+	
+	c.getinfo();
+	
+	c.ac
+	
+	public void putGas();
+	gas +=10;
+	
+}

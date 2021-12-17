@@ -1,0 +1,11 @@
+package test;
+
+public class Main01 {
+
+	public static void main(String[] args) {
+		Archer a1 = new Archer();
+		a1.getInfo();
+
+	}
+
+}

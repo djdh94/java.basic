@@ -1,0 +1,10 @@
+package accessmodifier2;
+
+public class Salaryman extends Person {
+
+	public int sNum;
+	
+	public void getStudentInfo() {
+		System.out.println("학번: "+sNum);
+	}
+}

@@ -1,0 +1,12 @@
+package test;
+
+public class Main03 {
+
+	public static void main(String[] args) {
+		
+		Archer a1 = new Archer("아처");
+		a1.getInfo();
+
+	}
+
+}

@@ -1,0 +1,6 @@
+package overriding;
+
+public class Animal3 {
+
+	String name;
+}

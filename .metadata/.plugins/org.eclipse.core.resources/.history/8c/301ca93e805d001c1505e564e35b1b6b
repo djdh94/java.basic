@@ -1,0 +1,11 @@
+package game.accessmodifier;
+
+public class Main02 {
+
+		Warrior w1 = new Warrior("총쓰는 승곤");
+		
+		
+		
+			
+		
+}

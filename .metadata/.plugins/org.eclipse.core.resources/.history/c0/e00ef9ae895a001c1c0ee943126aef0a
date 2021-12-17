@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class test {
+	
+	public static double FToC(double h) {
+		return (h-32)/1.8;
+	}
+
+	public static void main(String[] args) {
+		
+		
+		Scanner scan= new Scanner(System.in);
+		System.out.println("오늘의 화씨온도를 입력하세요");
+		double h = scan.nextDouble();
+		System.out.println("오늘의 섭씨온도:"+h);
+		
+	}
+}

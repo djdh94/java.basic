@@ -1,0 +1,15 @@
+package test;
+
+public class Warrior extends Commoner {
+
+	private int pDam;
+	
+	public Warrior(String name) {
+		super(name);
+	}
+	
+	public void getInfo() {
+System.out.println("캐릭터를 생성합니다.");
+System.out.println("아이디:"+name+",체력:"+hp+",마나:"+mp+",레벨:"+lv+",데미지:"+pDam);
+	}
+}

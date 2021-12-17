@@ -1,0 +1,10 @@
+package polymorphism;
+
+public class Teacher extends Person{
+	
+	private int num;
+	
+	public 
+	
+
+}

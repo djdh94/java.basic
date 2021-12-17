@@ -1,0 +1,23 @@
+package test;
+
+public class Main01 {
+
+	public static void main(String[] args) {
+		// 전사를 만들어주세요
+		
+		Warrior w1 = new Warrior();
+		
+		Orc o1 = new Orc();
+		
+		Troll t1 = new Troll();
+		t1.doBattl(0);
+		t1.doBattl(0);
+		t1.doBattl(0);
+			
+			
+			
+		
+
+	}
+
+}

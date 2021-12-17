@@ -1,0 +1,19 @@
+package test;
+
+public class Main01 {
+
+	public static void main(String[] args) {
+		Archer a1 = new Archer();
+		a1.getInfo();
+		a1.fireball();
+		a1.getInfo();
+
+		
+		Warrior w1 = new Warrior();
+		w1.getInfo();
+		w1.attack();
+		w1.doubleAttack();
+		w1.getInfo();
+	}
+
+}

@@ -1,0 +1,22 @@
+package constructor;
+
+public class BaketballPlayer {
+
+	
+	public int height;
+	public int jumpHeight;
+	
+	public BaketballPlayer(int height,int jumpHight) {
+		
+		height = 180;
+		jumpHeight=50;
+		
+	}
+	
+	public void getInfo();
+	
+		
+	}
+		
+	
+}

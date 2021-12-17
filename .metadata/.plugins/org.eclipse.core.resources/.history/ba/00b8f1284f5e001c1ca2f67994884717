@@ -1,0 +1,27 @@
+package test;
+
+public class Archer extends Commoner{
+
+	public void hunt() {
+		System.out.println("아처를 생성합니다");
+		setHp(getHp()-2); 
+		setExp(getExp()+10); 
+	}
+	
+	public void fireball() {
+		System.out.println("파이어볼 공격");
+		setMp(getMp()-3);
+		setExp(getExp()+20);
+		
+	}
+	
+	public void heal() {
+	System.out.println("힐을 받습니다");
+	setMp(getMp()-2);
+	setHp(getHp()+10);
+	}
+	
+	public void getInfo() {
+		System.out.println("현재 체력:"+getHp()+"현재 경험치:"+getExp()+",현재 마나:"+getMp());
+	}
+}
