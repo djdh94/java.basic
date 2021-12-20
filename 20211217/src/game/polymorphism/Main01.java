@@ -6,7 +6,7 @@ public class Main01 {
 		
 		Commoner c1 = new Commoner();
 		
-		Orc o1 = new Orc();
+		
 		
 		
 		
