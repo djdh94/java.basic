@@ -11,8 +11,11 @@ public class Main02P276 {
 		
 		//s1 생성후 s1을 이용해.check()를 호출해보세요.
 		
-		StaticTest s1 = new StaticTest();
 		
+		
+		StaticTest.check();
+		
+		StaticTest s1 = new StaticTest();
 		s1.check();
 		
 
