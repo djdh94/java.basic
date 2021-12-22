@@ -1,7 +1,0 @@
-package accessmodifier2;
-
-public class Student extends Person {
-
-	public int sNum;
-	
-}
