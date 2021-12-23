@@ -1,6 +1,0 @@
-package game.inheritance;
-
-public class Archer extends Commoner{
-
-	private int rDam;
-}

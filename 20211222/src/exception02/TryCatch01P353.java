@@ -23,7 +23,7 @@ public class TryCatch01P353 {
 			System.out.println("실행 시작");
 			System.out.println(a/b);
 			System.out.println("계산끝");
-		} catch(Exception e) {
+		} catch(Exception e) {//익섹셥은 다받아주는기능
 			//catch블록에는 (Exception e)가 기본으로 들어간다.
 			//Exception e로 적는경우 예외 종류를 막론하고 전부 처리 가능하다.
 			// 추후에 특정한 종류의 예외를 따로 처리하고 싶은 경우는 다른 예외명을 적으면 된다.
