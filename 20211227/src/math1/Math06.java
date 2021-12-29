@@ -13,7 +13,31 @@ public class Math06 {
 		int myValue=(int)(Math.random()*3);
 		int comValue=(int)(Math.random()*3);
 		
-		if(myValue == 0 && comValue == 2) {
+	
+		
+		final int s=0;
+		final int r=1;
+		final int p=2;
+		
+		if((myValue==s && comValue==p)||
+		  (myValue==r && comValue==s)||
+		  (myValue==p && comValue==r)){
+			System.out.println("내가 이겼습니다.");}
+			
+			else if((comValue==p && myValue==r)||
+					(comValue==r && myValue==s)||
+					(comValue==s && myValue==p)) {
+				System.out.println("컴퓨터가 이겼습니다.");
+			}
+			else {
+				System.out.println("비겼습니다.");
+			}
+		
+			String[] items= {"가위","바위","보"};
+			System.out.println("내가낸것:"+items[myValue]);
+			System.out.println("컴퓨터가낸것:"+items[comValue]);
+		
+		/*if(myValue == 0 && comValue == 2) {
 			System.out.println("내가 이겼습니다.");
 			System.out.println("내 값:"+myValue);
 			System.out.println("컴퓨터 값:"+comValue);
