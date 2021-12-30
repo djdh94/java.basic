@@ -23,6 +23,7 @@ public class FileIO1 {
 		// \n을 추가로 붙여주시면 됩니다.
 		output.write("123");
 		
+		// 저장까지 해 줘야 내용이 저장됩니다.
 		output.close();
 
 	}
