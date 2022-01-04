@@ -3,9 +3,6 @@ use ict_practice;
 -- 앞에 스키마 명을 추가로 입력해 스키마명.테이블명으로 조회도 가능함
 select *from ict_practice.userTbl;
 -- 유저를 두명만 더 추가하기
-
-
-
 set sql_safe_updates=0;
 
 update userTbl SET addr='서울' where user_id='zzz';
@@ -19,6 +16,7 @@ INSERT INTO buytbl values(null,'kec','몰라','몰라',4485,1);
 insert into buytbl (user_id,prod_name,group_name,price,amount)
 values('kec','asd','asdf',1652,1);
 insert into buytbl values(null,'kec','sdf','sdf',5615,1);
+
 
 -- 여태까지의 select 구문은 조건 없이 모든 데이터를 다 조회했습니다.
 -- 극단적인 경우 employees 테이블의 모든 row를 조회하다보니
@@ -159,21 +157,3 @@ select *from usertbl where height<any
 -- 현대 코드에서 몇 보다 작은 숫자가 다 잡혀나오는지 적어보기
 select *from usertbl where height<all
 (SELECT height from usertbl where addr='서울');
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

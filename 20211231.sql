@@ -61,6 +61,8 @@ price int(7) not null,
 amount int(3) not null,
 FOREIGN KEY(user_id) references userTbl(user_id));
 
+
+
 -- 회원부터 넣음
 INSERT INTO userTbl values('EM','김은총',1994,'인천','0111111111',111,'2020-3-5');
 SELECT *FROM userTbl;
